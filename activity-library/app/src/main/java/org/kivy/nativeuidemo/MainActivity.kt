@@ -1,7 +1,6 @@
 package org.kivy.nativeuidemo
 
-// import androidx.appcompat.app.AppCompatActivity // androidx currently leads to merge errors
-import android.support.v7.app.AppCompatActivity    //this currently works for merging
+import androidx.appcompat.app.AppCompatActivity
 
 import android.os.Bundle
 import android.view.View
