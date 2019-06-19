@@ -10,11 +10,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="hello"
             android:ems="10"
-            android:id="@+id/editMsg" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/editMessage" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="86dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="99dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="99dp"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="99dp" android:hint="message"/>
     <TextView
             android:text="TextView"
             android:layout_width="250dp"
@@ -22,9 +22,9 @@
             android:id="@+id/txtOutput" android:layout_marginEnd="40dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="40dp"
             app:layout_constraintHorizontal_bias="0.493" android:layout_marginTop="64dp"
-            app:layout_constraintTop_toBottomOf="@+id/editMsg"/>
+            app:layout_constraintTop_toBottomOf="@+id/editMessage"/>
     <Button
-            android:text="Button"
+            android:text="send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnSend" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="144dp"
