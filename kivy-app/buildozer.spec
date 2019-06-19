@@ -160,9 +160,6 @@ android.add_aars = ../activity-library/app/build/outputs/aar/nativeuidemo_0.1.2-
 
 # (list) Gradle dependencies to add (currently works only with sdl2_gradle
 # bootstrap)
-# android.gradle_dependencies = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20, com.android.support:support-v4:28.0.0, com.android.support:appcompat-v7:28.0.0, com.android.support.constraint:constraint-layout:1.1.3, com.android.support:design:28.0.0, com.android.support:cardview-v7:28.0.0, com.android.support:recyclerview-v7:28.0.0
-# android.gradle_dependencies = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31, androidx.appcompat:appcompat:1.0.2, com.android.support.constraint:constraint-layout:1.1.3, com.android.support:design:28.0.0, com.android.support:cardview-v7:28.0.0, com.android.support:recyclerview-v7:28.0.0,  io.ktor:ktor-client-core:1.2.1, io.ktor:ktor-client-websockets:1.2.1, io.ktor:ktor-client-cio:1.2.1, org.slf4j:slf4j-nop:1.7.25
-# android.gradle_dependencies = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31, com.android.support:support-v4:28.0.0, com.android.support:appcompat-v7:28.0.0, com.android.support.constraint:constraint-layout:1.1.3, com.android.support:design:28.0.0, com.android.support:cardview-v7:28.0.0, com.android.support:recyclerview-v7:28.0.0,  io.ktor:ktor-client-core:1.2.1, io.ktor:ktor-client-websockets:1.2.1, io.ktor:ktor-client-cio:1.2.1, org.slf4j:slf4j-nop:1.7.25
 android.gradle_dependencies = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31,  androidx.appcompat:appcompat:1.0.2, androidx.constraintlayout:constraintlayout:1.1.3,  io.ktor:ktor-client-core:1.2.1, io.ktor:ktor-client-websockets:1.2.1, io.ktor:ktor-client-cio:1.2.1
 
 # (list) add java 'sourceCompatibility' and 'targetCompatibility' to build.gradle
@@ -178,7 +175,7 @@ android.add_packaging_options = "exclude 'META-INF/common.kotlin_module'", "excl
 
 # android.add_packaging_options = 
 # (list) Java classes to add as activities to the manifest.
-#android.add_activites = com.example.ExampleActivity androidx.appcompat:appcompat:1.0.2, androidx.constraintlayout:constraintlayout:1.1.3,  io.ktor:ktor-client-core:1.2.1, io.ktor:ktor-client-websockets:1.2.1, io.ktor:ktor-client-cio:1.2.1
+# android.add_activites = com.example.ExampleActivity 
 
 # (str) python-for-android branch to use, defaults to master
 #p4a.branch = master
