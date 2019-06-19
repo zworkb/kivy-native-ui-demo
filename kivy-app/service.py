@@ -2,10 +2,13 @@ import time
 import asyncio
 import websockets
 
+counter = 0
 async def response(websocket, path):
+    global counter
+    counter += 1
     msg = await websocket.recv()
-    print("msg:", msg)
-    await websocket.send("echo: %s" % msg)
+    print("msg:", msg, counter)
+    await websocket.send("echo[%s]: %s" % (counter,msg))
 
 
 def start_server():
@@ -14,5 +17,4 @@ def start_server():
     asyncio.get_event_loop().run_forever()
 
 start_server()
-asyncio.sleep(100)
-print ('---service ended')
+print ('service ended')
