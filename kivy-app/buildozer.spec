@@ -151,7 +151,7 @@ android.add_src = java
 
 # (list) List of Java files to add to the android project (can be java or a
 # directory containing the files)
-android.add_app_dir = res
+# android.add_app_dir = res
 
 # (list) Android AAR archives to add (currently works only with sdl2_gradle
 # bootstrap)

@@ -18,7 +18,7 @@ This is a simple Activity that communicates via websockets with the Python backe
     
     gives error "More than one file was found with OS independent path 'META-INF/ktor-http.kotlin_module'"
 
-    - solved by adding the block to the android section:
+    - this is solved by adding the block to the android section:
         packagingOptions {
         // see https://stackoverflow.com/questions/56484281/compiler-cannot-resolve-classes-in-io-ktor-client-features-logging
         exclude 'META-INF/common.kotlin_module'
@@ -31,3 +31,4 @@ This is a simple Activity that communicates via websockets with the Python backe
     - set android.libraryVariants.all
 
     - In Manifest.xml remove the icon and roundIcon attributes
+
