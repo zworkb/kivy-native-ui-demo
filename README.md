@@ -8,4 +8,4 @@ a kivy app and call that activity from the python part.
 ## see subprojects for further information
 
 - [kivy-app](kivy-app/README.md)
-- [android activity](activity-library/README.md)
+- [native android activity](activity-library/README.md)
