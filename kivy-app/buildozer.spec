@@ -149,10 +149,6 @@ android.apptheme = "@style/AppTheme"
 # directory containing the files)
 android.add_src = java
 
-# (list) List of Java files to add to the android project (can be java or a
-# directory containing the files)
-# android.add_app_dir = res
-
 # (list) Android AAR archives to add (currently works only with sdl2_gradle
 # bootstrap)
 # android.add_aars = timber_removal_lib_1.0-debug.aar
@@ -220,7 +216,8 @@ android.add_packaging_options = "exclude 'META-INF/common.kotlin_module'", "excl
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+# android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 #
 # Python for android (p4a) specific
