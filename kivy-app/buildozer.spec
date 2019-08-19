@@ -161,8 +161,7 @@ android.gradle_dependencies = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31,  a
 # (list) add java 'sourceCompatibility' and 'targetCompatibility' to build.gradle
 # this can be necessary when importing java libraries using the 'android.gradle_dependencies' option
 # see https://developer.android.com/studio/write/java8-support for further information
-android.add_java_source_compat = 1.8
-android.add_java_target_compat = 1.8
+android.add_compile_options = "sourceCompatibility = 1.8", "targetCompatibility = 1.8"
 
 android.add_gradle_repositories = "maven { url 'https://kotlin.bintray.com/ktor' }"
 
